@@ -1,0 +1,2253 @@
+{
+    "name": "Enib",
+    "securityToken": "Enib Token",
+    "sourceConnection": {
+        "name": "idc",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiOWViMzA3OTY1YmZjMGUyZDQ5NjlmNzI2ZjdmYzY2NjU0MGViNTA3MzgzZDI5YjQzNDgyMmQ1ZjA0YTMyN2RlMDUwOTQ3YmEzOTdhOWI1ODQ1YmYyZjFiYTBlZTZhYzA0YmIxODk3MDRiNGM0OWJlZmViY2RlNGZmZDcwYjgzMzkiLCJpdiI6ImEwZmZiNjhmY2U1ZDc3MjYzM2M0N2UyY2I4MjIzN2Q0YWU4YjVmNTdhMjk1NzQyYyJ9"
+        },
+        "id": "OkEaMyR_E"
+    },
+    "targetConnection": {
+        "name": "targetidc",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZmU1Mzc4NjkwZWQwZmE3MDlkY2M0OGYwMGJmMTMwNzA2ZGE3OTE4MzUwODA0ZDQxMWQxNjJjMTY3OTYxN2NmOTBlM2MwZWZiOGIwNmNkMDFlNTIzNzM1Y2M0ZDI0MTgzIiwiaXYiOiI0MzdjM2RhNzYxMjFjYzRlYWMzMzVlMWQzYTlhMjJhNjY0ZjZhMmMxNTViYTY1NWMifQ=="
+        },
+        "id": "5vVO1N_v8"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 5
+    },
+    "tags": [
+        {
+            "name": "store_name",
+            "color": "#5db300"
+        },
+        {
+            "name": "address",
+            "color": "#e81123"
+        },
+        {
+            "name": "invoice_no",
+            "color": "#008000"
+        },
+        {
+            "name": "total_amount",
+            "color": "#800000"
+        },
+        {
+            "name": "date",
+            "color": "#FFFF00"
+        },
+        {
+            "name": "time",
+            "color": "#808000"
+        },
+        {
+            "name": "items",
+            "color": "#00FF00"
+        }
+    ],
+    "id": "93MVVMhg3",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "cntk",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiM2ZhNWNhYTU5OGZhMGEyMDg4ZjZjMzYxN2E3MjNmMGU1OTMwMGZkODUxZGNlZmRjMGIzN2MxNDFmNjM1MjU1NTI3MWIwMDg5MjE5MmJhYmU4ZGJiNmFhYzhjZjkyNzRiIiwiaXYiOiI2NDc0Yjg3NWEzNWQxNWQzNDk5MGMzYWMyYmMxZGEzM2M3ZDI3NTQ1NjE2MzdlMmQifQ=="
+        }
+    },
+    "version": "2.1.0",
+    "lastVisitedAssetId": "0a56186047c2563e05276b4873209e1a",
+    "assets": {
+        "5ffe6e22cbd5551daf16a8b6b4777223": {
+            "format": "jpg",
+            "id": "5ffe6e22cbd5551daf16a8b6b4777223",
+            "name": "Annavillas_1.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Annavillas_1.jpg",
+            "size": {
+                "width": 930,
+                "height": 1650
+            },
+            "state": 2,
+            "type": 1
+        },
+        "96675ecd4ed405426c83c14849d4b83c": {
+            "format": "jpg",
+            "id": "96675ecd4ed405426c83c14849d4b83c",
+            "name": "Annavillas_10.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Annavillas_10.jpg",
+            "size": {
+                "width": 842,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2385bd746c708adde2a18d0c8f004ddb": {
+            "format": "jpg",
+            "id": "2385bd746c708adde2a18d0c8f004ddb",
+            "name": "Annavillas_2.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Annavillas_2.jpg",
+            "size": {
+                "width": 1641,
+                "height": 937
+            },
+            "state": 2,
+            "type": 1
+        },
+        "479abd56fd77c55bc95c64708351bffd": {
+            "format": "jpg",
+            "id": "479abd56fd77c55bc95c64708351bffd",
+            "name": "Annavillas_3.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Annavillas_3.jpg",
+            "size": {
+                "width": 1647,
+                "height": 942
+            },
+            "state": 1,
+            "type": 1
+        },
+        "586f83cf31fe25c25a6a407b866d21a1": {
+            "format": "jpg",
+            "id": "586f83cf31fe25c25a6a407b866d21a1",
+            "name": "Annavillas_4.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Annavillas_4.jpg",
+            "size": {
+                "width": 1589,
+                "height": 943
+            },
+            "state": 1,
+            "type": 1
+        },
+        "102e0cad20034a718ada6ce9edac99cc": {
+            "format": "jpg",
+            "id": "102e0cad20034a718ada6ce9edac99cc",
+            "name": "Annavillas_5.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Annavillas_5.jpg",
+            "size": {
+                "width": 918,
+                "height": 1590
+            },
+            "state": 1,
+            "type": 1
+        },
+        "667c5301f6a7a2b00ac2d55a269da44f": {
+            "format": "jpg",
+            "id": "667c5301f6a7a2b00ac2d55a269da44f",
+            "name": "Annavillas_6.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Annavillas_6.jpg",
+            "size": {
+                "width": 1582,
+                "height": 923
+            },
+            "state": 1,
+            "type": 1
+        },
+        "c42f21a4e6d79955cbed6724c32e72e5": {
+            "format": "jpg",
+            "id": "c42f21a4e6d79955cbed6724c32e72e5",
+            "name": "Annavillas_7.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Annavillas_7.jpg",
+            "size": {
+                "width": 1599,
+                "height": 876
+            },
+            "state": 1,
+            "type": 1
+        },
+        "89daee815d1c722227e69156edc94eed": {
+            "format": "jpg",
+            "id": "89daee815d1c722227e69156edc94eed",
+            "name": "Annavillas_8.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Annavillas_8.jpg",
+            "size": {
+                "width": 860,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "17b7ac917819f25dc5d0e6840bae5aee": {
+            "format": "jpg",
+            "id": "17b7ac917819f25dc5d0e6840bae5aee",
+            "name": "Annavillas_9.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Annavillas_9.jpg",
+            "size": {
+                "width": 934,
+                "height": 1651
+            },
+            "state": 1,
+            "type": 1
+        },
+        "132899ab39dc74bf5073bc47c8601bf3": {
+            "format": "jpg",
+            "id": "132899ab39dc74bf5073bc47c8601bf3",
+            "name": "Archies_1.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Archies_1.jpg",
+            "size": {
+                "width": 632,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dedb76931680d09f2da08dcc2f8da4c9": {
+            "format": "jpg",
+            "id": "dedb76931680d09f2da08dcc2f8da4c9",
+            "name": "Archies_10.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Archies_10.jpg",
+            "size": {
+                "width": 546,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4d23f84bc82f7eb9b290326214116ed3": {
+            "format": "jpg",
+            "id": "4d23f84bc82f7eb9b290326214116ed3",
+            "name": "Archies_2.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Archies_2.jpg",
+            "size": {
+                "width": 928,
+                "height": 2375
+            },
+            "state": 1,
+            "type": 1
+        },
+        "01831417aa1605975c6d1c99e59414aa": {
+            "format": "jpg",
+            "id": "01831417aa1605975c6d1c99e59414aa",
+            "name": "Archies_3.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Archies_3.jpg",
+            "size": {
+                "width": 918,
+                "height": 2393
+            },
+            "state": 1,
+            "type": 1
+        },
+        "da5a8c94be651954c681350b8d6c8392": {
+            "format": "jpg",
+            "id": "da5a8c94be651954c681350b8d6c8392",
+            "name": "Archies_4.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Archies_4.jpg",
+            "size": {
+                "width": 920,
+                "height": 2474
+            },
+            "state": 1,
+            "type": 1
+        },
+        "26b6128c612c6cf82079922cf6eb4b0d": {
+            "format": "jpg",
+            "id": "26b6128c612c6cf82079922cf6eb4b0d",
+            "name": "Archies_5.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Archies_5.jpg",
+            "size": {
+                "width": 919,
+                "height": 2622
+            },
+            "state": 1,
+            "type": 1
+        },
+        "ed8cab8952480678111edb8cef92a7f8": {
+            "format": "jpg",
+            "id": "ed8cab8952480678111edb8cef92a7f8",
+            "name": "Archies_6.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Archies_6.jpg",
+            "size": {
+                "width": 919,
+                "height": 2339
+            },
+            "state": 1,
+            "type": 1
+        },
+        "53471d3903e02e8979cb407f59cd1a21": {
+            "format": "jpg",
+            "id": "53471d3903e02e8979cb407f59cd1a21",
+            "name": "Archies_7.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Archies_7.jpg",
+            "size": {
+                "width": 926,
+                "height": 2299
+            },
+            "state": 1,
+            "type": 1
+        },
+        "b255d9b330abb0ccbe63b4b00bdc8613": {
+            "format": "jpg",
+            "id": "b255d9b330abb0ccbe63b4b00bdc8613",
+            "name": "Archies_9.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Archies_9.jpg",
+            "size": {
+                "width": 917,
+                "height": 2473
+            },
+            "state": 1,
+            "type": 1
+        },
+        "fbd334c1899c99179c83163d17d70119": {
+            "format": "jpg",
+            "id": "fbd334c1899c99179c83163d17d70119",
+            "name": "Archies_8.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Archies_8.jpg",
+            "size": {
+                "width": 625,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "1ea12625fdadde47cfa6f155fd8977b2": {
+            "format": "jpg",
+            "id": "1ea12625fdadde47cfa6f155fd8977b2",
+            "name": "Bata_1.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Bata_1.jpg",
+            "size": {
+                "width": 446,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6476348f8cb006c8cb28c95ace170316": {
+            "format": "jpg",
+            "id": "6476348f8cb006c8cb28c95ace170316",
+            "name": "Bata_10.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Bata_10.jpg",
+            "size": {
+                "width": 933,
+                "height": 3617
+            },
+            "state": 1,
+            "type": 1
+        },
+        "7888bf9682934a213bccc616d35f58af": {
+            "format": "jpg",
+            "id": "7888bf9682934a213bccc616d35f58af",
+            "name": "Bata_2.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Bata_2.jpg",
+            "size": {
+                "width": 548,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "df098cab268d6a4d4c168420b05d8667": {
+            "format": "jpg",
+            "id": "df098cab268d6a4d4c168420b05d8667",
+            "name": "Bata_3.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Bata_3.jpg",
+            "size": {
+                "width": 2458,
+                "height": 961
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b3b99d53636d1b4ae720abe59dfd5292": {
+            "format": "jpg",
+            "id": "b3b99d53636d1b4ae720abe59dfd5292",
+            "name": "Bata_4.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Bata_4.jpg",
+            "size": {
+                "width": 419,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "a129bb92dd47036578b67c9871c433e4": {
+            "format": "jpg",
+            "id": "a129bb92dd47036578b67c9871c433e4",
+            "name": "Bata_5.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Bata_5.jpg",
+            "size": {
+                "width": 1599,
+                "height": 432
+            },
+            "state": 1,
+            "type": 1
+        },
+        "ea301b9efc4dd1631f40abd44edab2c5": {
+            "format": "jpg",
+            "id": "ea301b9efc4dd1631f40abd44edab2c5",
+            "name": "Bata_6.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Bata_6.jpg",
+            "size": {
+                "width": 1599,
+                "height": 428
+            },
+            "state": 1,
+            "type": 1
+        },
+        "657b83a365b7bd300c526974bfe392bf": {
+            "format": "jpg",
+            "id": "657b83a365b7bd300c526974bfe392bf",
+            "name": "Bata_7.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Bata_7.jpg",
+            "size": {
+                "width": 492,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "fcd7a89f043709e2956073f65550d1fa": {
+            "format": "jpg",
+            "id": "fcd7a89f043709e2956073f65550d1fa",
+            "name": "Bata_8.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Bata_8.jpg",
+            "size": {
+                "width": 1599,
+                "height": 460
+            },
+            "state": 1,
+            "type": 1
+        },
+        "ad08a4d78973f7c31baee62512e36a24": {
+            "format": "jpg",
+            "id": "ad08a4d78973f7c31baee62512e36a24",
+            "name": "Bata_9.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Bata_9.jpg",
+            "size": {
+                "width": 929,
+                "height": 3609
+            },
+            "state": 1,
+            "type": 1
+        },
+        "0e74e002a8e79f2039810490efad7dba": {
+            "format": "jpg",
+            "id": "0e74e002a8e79f2039810490efad7dba",
+            "name": "Croma_1.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Croma_1.jpg",
+            "size": {
+                "width": 931,
+                "height": 4861
+            },
+            "state": 1,
+            "type": 1
+        },
+        "defc65a995143bb246467d370d68ceed": {
+            "format": "jpg",
+            "id": "defc65a995143bb246467d370d68ceed",
+            "name": "Croma_10.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Croma_10.jpg",
+            "size": {
+                "width": 945,
+                "height": 4448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a9270dc82f2cb17145b632f8e3eee08a": {
+            "format": "jpg",
+            "id": "a9270dc82f2cb17145b632f8e3eee08a",
+            "name": "Croma_2.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Croma_2.jpg",
+            "size": {
+                "width": 949,
+                "height": 5323
+            },
+            "state": 1,
+            "type": 1
+        },
+        "8a8053adba2bfed487fd947ad05e7e64": {
+            "format": "jpg",
+            "id": "8a8053adba2bfed487fd947ad05e7e64",
+            "name": "Croma_3.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Croma_3.jpg",
+            "size": {
+                "width": 938,
+                "height": 4739
+            },
+            "state": 1,
+            "type": 1
+        },
+        "f249a250304b7865f6152f286050da55": {
+            "format": "jpg",
+            "id": "f249a250304b7865f6152f286050da55",
+            "name": "Croma_4.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Croma_4.jpg",
+            "size": {
+                "width": 939,
+                "height": 4609
+            },
+            "state": 1,
+            "type": 1
+        },
+        "84c192358f5520f1e2e4e889d51d14af": {
+            "format": "jpg",
+            "id": "84c192358f5520f1e2e4e889d51d14af",
+            "name": "Croma_5.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Croma_5.jpg",
+            "size": {
+                "width": 329,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6487a15575ea4013a5c2c841519b5cfb": {
+            "format": "jpg",
+            "id": "6487a15575ea4013a5c2c841519b5cfb",
+            "name": "Croma_6.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Croma_6.jpg",
+            "size": {
+                "width": 934,
+                "height": 4189
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3d1bed15a4007fdf4e354199f382fb69": {
+            "format": "jpg",
+            "id": "3d1bed15a4007fdf4e354199f382fb69",
+            "name": "Croma_7.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Croma_7.jpg",
+            "size": {
+                "width": 925,
+                "height": 4090
+            },
+            "state": 1,
+            "type": 1
+        },
+        "4c1c2718ca50a6b9551b49929ba87870": {
+            "format": "jpg",
+            "id": "4c1c2718ca50a6b9551b49929ba87870",
+            "name": "Croma_8.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Croma_8.jpg",
+            "size": {
+                "width": 924,
+                "height": 4388
+            },
+            "state": 1,
+            "type": 1
+        },
+        "9b6716b0b5d0d42f42f5f4a72403f756": {
+            "format": "jpg",
+            "id": "9b6716b0b5d0d42f42f5f4a72403f756",
+            "name": "Croma_9.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Croma_9.jpg",
+            "size": {
+                "width": 921,
+                "height": 4785
+            },
+            "state": 2,
+            "type": 1
+        },
+        "48e5df142988706ac2e0daef915bd732": {
+            "format": "jpg",
+            "id": "48e5df142988706ac2e0daef915bd732",
+            "name": "Dominos_1.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Dominos_1.jpg",
+            "size": {
+                "width": 1599,
+                "height": 671
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ef565bd5e9a3c998d70962c691b812c0": {
+            "format": "jpg",
+            "id": "ef565bd5e9a3c998d70962c691b812c0",
+            "name": "Dominos_2.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Dominos_2.jpg",
+            "size": {
+                "width": 640,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bbd1ba3887bd68a5d4d3568a68400684": {
+            "format": "jpg",
+            "id": "bbd1ba3887bd68a5d4d3568a68400684",
+            "name": "Dominos_3.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Dominos_3.jpg",
+            "size": {
+                "width": 2315,
+                "height": 942
+            },
+            "state": 1,
+            "type": 1
+        },
+        "e368f5a5fd0b35f97134402fd5fed7e7": {
+            "format": "jpg",
+            "id": "e368f5a5fd0b35f97134402fd5fed7e7",
+            "name": "Dominos_4.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Dominos_4.jpg",
+            "size": {
+                "width": 682,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "a7b1bf328715b0df9355986c75bd626b": {
+            "format": "jpg",
+            "id": "a7b1bf328715b0df9355986c75bd626b",
+            "name": "Dominos_5.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Dominos_5.jpg",
+            "size": {
+                "width": 1599,
+                "height": 596
+            },
+            "state": 1,
+            "type": 1
+        },
+        "701206a7a6c235ebe9097b1b3051124b": {
+            "format": "jpg",
+            "id": "701206a7a6c235ebe9097b1b3051124b",
+            "name": "Dominos_6.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Dominos_6.jpg",
+            "size": {
+                "width": 641,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "1b065d90586cfeb01ed406b49bf8a569": {
+            "format": "jpg",
+            "id": "1b065d90586cfeb01ed406b49bf8a569",
+            "name": "Dominos_7.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Dominos_7.jpg",
+            "size": {
+                "width": 1599,
+                "height": 622
+            },
+            "state": 1,
+            "type": 1
+        },
+        "8ccc93fc6b3cf500cd5c35c305cb0ac4": {
+            "format": "jpg",
+            "id": "8ccc93fc6b3cf500cd5c35c305cb0ac4",
+            "name": "Dominos_8.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Dominos_8.jpg",
+            "size": {
+                "width": 632,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "5b12fe5b87f4c8019789ec78eff0887f": {
+            "format": "jpg",
+            "id": "5b12fe5b87f4c8019789ec78eff0887f",
+            "name": "Dominos_9.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Dominos_9.jpg",
+            "size": {
+                "width": 939,
+                "height": 2247
+            },
+            "state": 1,
+            "type": 1
+        },
+        "85a212ec342f04aac9ce44afef1e82f5": {
+            "format": "jpg",
+            "id": "85a212ec342f04aac9ce44afef1e82f5",
+            "name": "Globus_1.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Globus_1.jpg",
+            "size": {
+                "width": 437,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "987baa5bb093adcbfc08db8b2c02f164": {
+            "format": "jpg",
+            "id": "987baa5bb093adcbfc08db8b2c02f164",
+            "name": "Globus_10.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Globus_10.jpg",
+            "size": {
+                "width": 937,
+                "height": 4425
+            },
+            "state": 1,
+            "type": 1
+        },
+        "547d3224ed5219b4503d55058d7b100c": {
+            "format": "jpg",
+            "id": "547d3224ed5219b4503d55058d7b100c",
+            "name": "Globus_2.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Globus_2.jpg",
+            "size": {
+                "width": 934,
+                "height": 3397
+            },
+            "state": 1,
+            "type": 1
+        },
+        "ca13096c47871e4b390e644373de6ce9": {
+            "format": "jpg",
+            "id": "ca13096c47871e4b390e644373de6ce9",
+            "name": "Globus_3.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Globus_3.jpg",
+            "size": {
+                "width": 587,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d85d848fc2774be4ee26b9915b81224b": {
+            "format": "png",
+            "id": "d85d848fc2774be4ee26b9915b81224b",
+            "name": "Globus_4.png",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Globus_4.png",
+            "size": {
+                "width": 348,
+                "height": 1600
+            },
+            "state": 1,
+            "type": 1
+        },
+        "f9c1d8f62e20eee3a82152c877ba999a": {
+            "format": "png",
+            "id": "f9c1d8f62e20eee3a82152c877ba999a",
+            "name": "Globus_5.png",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Globus_5.png",
+            "size": {
+                "width": 540,
+                "height": 1600
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2c7c3c4a2ec82acfa2d6d3198b65a566": {
+            "format": "jpg",
+            "id": "2c7c3c4a2ec82acfa2d6d3198b65a566",
+            "name": "Globus_6.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Globus_6.jpg",
+            "size": {
+                "width": 958,
+                "height": 4587
+            },
+            "state": 1,
+            "type": 1
+        },
+        "09369b4ec5e663183872ba0ec404ecdc": {
+            "format": "jpg",
+            "id": "09369b4ec5e663183872ba0ec404ecdc",
+            "name": "Globus_7.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Globus_7.jpg",
+            "size": {
+                "width": 967,
+                "height": 4320
+            },
+            "state": 1,
+            "type": 1
+        },
+        "c494814ba74e2b49d071b18ef07717f2": {
+            "format": "jpg",
+            "id": "c494814ba74e2b49d071b18ef07717f2",
+            "name": "Globus_8.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Globus_8.jpg",
+            "size": {
+                "width": 964,
+                "height": 4309
+            },
+            "state": 1,
+            "type": 1
+        },
+        "1e7e0a8a1994897cd46b8834e591cda7": {
+            "format": "jpg",
+            "id": "1e7e0a8a1994897cd46b8834e591cda7",
+            "name": "Globus_9.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Globus_9.jpg",
+            "size": {
+                "width": 935,
+                "height": 6254
+            },
+            "state": 1,
+            "type": 1
+        },
+        "c53319f0e9eaf6ee44db4ba3404e7632": {
+            "format": "jpg",
+            "id": "c53319f0e9eaf6ee44db4ba3404e7632",
+            "name": "Jockey_1.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Jockey_1.jpg",
+            "size": {
+                "width": 931,
+                "height": 3325
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2563b9fdd1b4210a608da1e6a00a6277": {
+            "format": "jpg",
+            "id": "2563b9fdd1b4210a608da1e6a00a6277",
+            "name": "Jockey_10.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Jockey_10.jpg",
+            "size": {
+                "width": 927,
+                "height": 3445
+            },
+            "state": 1,
+            "type": 1
+        },
+        "675413517d01fa97fe3e2b08bd67bfa0": {
+            "format": "jpg",
+            "id": "675413517d01fa97fe3e2b08bd67bfa0",
+            "name": "Jockey_2.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Jockey_2.jpg",
+            "size": {
+                "width": 930,
+                "height": 3278
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d18cf4f65e1256db18349d22c4487641": {
+            "format": "jpg",
+            "id": "d18cf4f65e1256db18349d22c4487641",
+            "name": "Jockey_3.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Jockey_3.jpg",
+            "size": {
+                "width": 927,
+                "height": 2742
+            },
+            "state": 1,
+            "type": 1
+        },
+        "007052db86cd4e7b32c6216197292c7b": {
+            "format": "jpg",
+            "id": "007052db86cd4e7b32c6216197292c7b",
+            "name": "Jockey_4.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Jockey_4.jpg",
+            "size": {
+                "width": 930,
+                "height": 2738
+            },
+            "state": 1,
+            "type": 1
+        },
+        "53be110934c0f0083f356ed7201d45c3": {
+            "format": "jpg",
+            "id": "53be110934c0f0083f356ed7201d45c3",
+            "name": "Jockey_5.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Jockey_5.jpg",
+            "size": {
+                "width": 537,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "4468ae06e6a43e36e721db8572ff4596": {
+            "format": "jpg",
+            "id": "4468ae06e6a43e36e721db8572ff4596",
+            "name": "Jockey_6.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Jockey_6.jpg",
+            "size": {
+                "width": 934,
+                "height": 2733
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6c514def049c8b20726eee7d8698d5ef": {
+            "format": "jpg",
+            "id": "6c514def049c8b20726eee7d8698d5ef",
+            "name": "Jockey_7.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Jockey_7.jpg",
+            "size": {
+                "width": 943,
+                "height": 4499
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a7e4a527ced7d5a044c24b8749840688": {
+            "format": "jpg",
+            "id": "a7e4a527ced7d5a044c24b8749840688",
+            "name": "Jockey_8.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Jockey_8.jpg",
+            "size": {
+                "width": 935,
+                "height": 2739
+            },
+            "state": 2,
+            "type": 1
+        },
+        "83dfb723cf6f2781b4aa7c6ec325bd09": {
+            "format": "jpg",
+            "id": "83dfb723cf6f2781b4aa7c6ec325bd09",
+            "name": "Jockey_9.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Jockey_9.jpg",
+            "size": {
+                "width": 929,
+                "height": 2828
+            },
+            "state": 1,
+            "type": 1
+        },
+        "6dddc1c919e1b84437e79f80b8079bf7": {
+            "format": "jpg",
+            "id": "6dddc1c919e1b84437e79f80b8079bf7",
+            "name": "KFC_1.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/KFC_1.jpg",
+            "size": {
+                "width": 871,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "548b8da41cb6becc9e1dac57f65f5c04": {
+            "format": "png",
+            "id": "548b8da41cb6becc9e1dac57f65f5c04",
+            "name": "KFC_10.png",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/KFC_10.png",
+            "size": {
+                "width": 548,
+                "height": 1600
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6b8bfc5bed1e9abb2132efaee416bef1": {
+            "format": "jpg",
+            "id": "6b8bfc5bed1e9abb2132efaee416bef1",
+            "name": "KFC_2.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/KFC_2.jpg",
+            "size": {
+                "width": 446,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "22acd1650eb794685515007ad6ed81ef": {
+            "format": "jpg",
+            "id": "22acd1650eb794685515007ad6ed81ef",
+            "name": "KFC_3.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/KFC_3.jpg",
+            "size": {
+                "width": 487,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c85575cc34e295615fade0586fc566fc": {
+            "format": "jpg",
+            "id": "c85575cc34e295615fade0586fc566fc",
+            "name": "KFC_4.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/KFC_4.jpg",
+            "size": {
+                "width": 963,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2ad0f0ab7209ced2065cb7dc62c08c38": {
+            "format": "jpg",
+            "id": "2ad0f0ab7209ced2065cb7dc62c08c38",
+            "name": "KFC_5.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/KFC_5.jpg",
+            "size": {
+                "width": 1599,
+                "height": 477
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d71247a1029f60d8494b6a895749c894": {
+            "format": "jpg",
+            "id": "d71247a1029f60d8494b6a895749c894",
+            "name": "KFC_6.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/KFC_6.jpg",
+            "size": {
+                "width": 483,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "f455c87d47230989bc4de7af48fa5c8a": {
+            "format": "jpg",
+            "id": "f455c87d47230989bc4de7af48fa5c8a",
+            "name": "KFC_7.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/KFC_7.jpg",
+            "size": {
+                "width": 452,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "494c0c54574be38c7a0aeca806263bb9": {
+            "format": "jpg",
+            "id": "494c0c54574be38c7a0aeca806263bb9",
+            "name": "KFC_8.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/KFC_8.jpg",
+            "size": {
+                "width": 944,
+                "height": 3531
+            },
+            "state": 1,
+            "type": 1
+        },
+        "6dc58ed23ffe72a550ccc9e4eb4f4349": {
+            "format": "png",
+            "id": "6dc58ed23ffe72a550ccc9e4eb4f4349",
+            "name": "KFC_9.png",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/KFC_9.png",
+            "size": {
+                "width": 480,
+                "height": 1600
+            },
+            "state": 1,
+            "type": 1
+        },
+        "3326daaf2a76bf4eea465b5a2a14e994": {
+            "format": "jpg",
+            "id": "3326daaf2a76bf4eea465b5a2a14e994",
+            "name": "Lifestyle_1.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Lifestyle_1.jpg",
+            "size": {
+                "width": 1599,
+                "height": 359
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fe9eb0969f1e61a0c24ee2209bce4fbe": {
+            "format": "jpg",
+            "id": "fe9eb0969f1e61a0c24ee2209bce4fbe",
+            "name": "Lifestyle_3.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Lifestyle_3.jpg",
+            "size": {
+                "width": 947,
+                "height": 4649
+            },
+            "state": 1,
+            "type": 1
+        },
+        "c0ec4cd3e972a6db97e1d09e52c1c183": {
+            "format": "jpg",
+            "id": "c0ec4cd3e972a6db97e1d09e52c1c183",
+            "name": "Lifestyle_2.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Lifestyle_2.jpg",
+            "size": {
+                "width": 1599,
+                "height": 356
+            },
+            "state": 1,
+            "type": 1
+        },
+        "f64c909668588308965808ba3c226d11": {
+            "format": "jpg",
+            "id": "f64c909668588308965808ba3c226d11",
+            "name": "Lifestyle_10.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Lifestyle_10.jpg",
+            "size": {
+                "width": 1599,
+                "height": 325
+            },
+            "state": 1,
+            "type": 1
+        },
+        "ec19e8c67ea2827ca41195b4b088737e": {
+            "format": "jpg",
+            "id": "ec19e8c67ea2827ca41195b4b088737e",
+            "name": "Lifestyle_4.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Lifestyle_4.jpg",
+            "size": {
+                "width": 933,
+                "height": 3505
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0adfe2bf31a2fcd71298e10f412ed4eb": {
+            "format": "jpg",
+            "id": "0adfe2bf31a2fcd71298e10f412ed4eb",
+            "name": "Lifestyle_5.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Lifestyle_5.jpg",
+            "size": {
+                "width": 929,
+                "height": 4359
+            },
+            "state": 1,
+            "type": 1
+        },
+        "b80ae2d036e745c1f97108f3661c6d8b": {
+            "format": "jpg",
+            "id": "b80ae2d036e745c1f97108f3661c6d8b",
+            "name": "Lifestyle_6.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Lifestyle_6.jpg",
+            "size": {
+                "width": 927,
+                "height": 3414
+            },
+            "state": 1,
+            "type": 1
+        },
+        "8b127ecf007628568bbf92f45d0b2133": {
+            "format": "jpg",
+            "id": "8b127ecf007628568bbf92f45d0b2133",
+            "name": "Lifestyle_7.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Lifestyle_7.jpg",
+            "size": {
+                "width": 940,
+                "height": 4012
+            },
+            "state": 1,
+            "type": 1
+        },
+        "9e60e660da0511ab210ba60560c62df8": {
+            "format": "jpg",
+            "id": "9e60e660da0511ab210ba60560c62df8",
+            "name": "Lifestyle_9.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Lifestyle_9.jpg",
+            "size": {
+                "width": 952,
+                "height": 4175
+            },
+            "state": 1,
+            "type": 1
+        },
+        "505aba97b36d4587b0e04bc7ae7c4dd9": {
+            "format": "jpg",
+            "id": "505aba97b36d4587b0e04bc7ae7c4dd9",
+            "name": "Lifestyle_8.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Lifestyle_8.jpg",
+            "size": {
+                "width": 940,
+                "height": 3814
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d7405d9947b4a96f7cd6d58f7be0e372": {
+            "format": "jpg",
+            "id": "d7405d9947b4a96f7cd6d58f7be0e372",
+            "name": "Luxe_1.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Luxe_1.jpg",
+            "size": {
+                "width": 940,
+                "height": 2227
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4c8f25bfcf9c06086233f16aff52ca54": {
+            "format": "jpg",
+            "id": "4c8f25bfcf9c06086233f16aff52ca54",
+            "name": "Luxe_10.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Luxe_10.jpg",
+            "size": {
+                "width": 936,
+                "height": 1534
+            },
+            "state": 1,
+            "type": 1
+        },
+        "96b69433b5edb95f9ef8d13012b026eb": {
+            "format": "jpg",
+            "id": "96b69433b5edb95f9ef8d13012b026eb",
+            "name": "Luxe_2.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Luxe_2.jpg",
+            "size": {
+                "width": 933,
+                "height": 1635
+            },
+            "state": 2,
+            "type": 1
+        },
+        "83d4fdadf93a1fbd633fe24be641684e": {
+            "format": "jpg",
+            "id": "83d4fdadf93a1fbd633fe24be641684e",
+            "name": "Luxe_3.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Luxe_3.jpg",
+            "size": {
+                "width": 934,
+                "height": 1634
+            },
+            "state": 1,
+            "type": 1
+        },
+        "1dbb6684e301f1a4cde4a3c0420b6005": {
+            "format": "jpg",
+            "id": "1dbb6684e301f1a4cde4a3c0420b6005",
+            "name": "Luxe_4.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Luxe_4.jpg",
+            "size": {
+                "width": 1599,
+                "height": 963
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f4585cceaac4f1d5e2fd5560cb04ac61": {
+            "format": "jpg",
+            "id": "f4585cceaac4f1d5e2fd5560cb04ac61",
+            "name": "Luxe_5.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Luxe_5.jpg",
+            "size": {
+                "width": 1627,
+                "height": 939
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4c372b976d5bee5a266ec3844698b5ef": {
+            "format": "jpg",
+            "id": "4c372b976d5bee5a266ec3844698b5ef",
+            "name": "Luxe_6.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Luxe_6.jpg",
+            "size": {
+                "width": 944,
+                "height": 1590
+            },
+            "state": 1,
+            "type": 1
+        },
+        "68e3398e8df914377f29cc4aa546dc2e": {
+            "format": "jpg",
+            "id": "68e3398e8df914377f29cc4aa546dc2e",
+            "name": "Luxe_7.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Luxe_7.jpg",
+            "size": {
+                "width": 1599,
+                "height": 893
+            },
+            "state": 1,
+            "type": 1
+        },
+        "4fa903c13bf84d1e04255e42574178c0": {
+            "format": "jpg",
+            "id": "4fa903c13bf84d1e04255e42574178c0",
+            "name": "Luxe_8.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Luxe_8.jpg",
+            "size": {
+                "width": 858,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "20dc338596bed8fa961005082ebd70da": {
+            "format": "jpg",
+            "id": "20dc338596bed8fa961005082ebd70da",
+            "name": "Market99_1.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Market99_1.jpg",
+            "size": {
+                "width": 808,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "aa9121a7c22cdca9cbdb80b9db342f7e": {
+            "format": "jpg",
+            "id": "aa9121a7c22cdca9cbdb80b9db342f7e",
+            "name": "Market99_10.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Market99_10.jpg",
+            "size": {
+                "width": 929,
+                "height": 2046
+            },
+            "state": 1,
+            "type": 1
+        },
+        "00e232e3dccbf5681645ec32a67a57cc": {
+            "format": "jpg",
+            "id": "00e232e3dccbf5681645ec32a67a57cc",
+            "name": "Market99_3.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Market99_3.jpg",
+            "size": {
+                "width": 1599,
+                "height": 907
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a7f699cacf8eea9c5bd5254581acdd54": {
+            "format": "jpg",
+            "id": "a7f699cacf8eea9c5bd5254581acdd54",
+            "name": "Market99_5.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Market99_5.jpg",
+            "size": {
+                "width": 768,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "d245d21a7258b0dfb64f260f56fcb455": {
+            "format": "jpg",
+            "id": "d245d21a7258b0dfb64f260f56fcb455",
+            "name": "Market99_6.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Market99_6.jpg",
+            "size": {
+                "width": 577,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "07425c5b6e593372a1ad0def39cd4295": {
+            "format": "jpg",
+            "id": "07425c5b6e593372a1ad0def39cd4295",
+            "name": "Market99_7.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Market99_7.jpg",
+            "size": {
+                "width": 928,
+                "height": 2340
+            },
+            "state": 1,
+            "type": 1
+        },
+        "d655439cda83d7439c36fcd0b97f5a03": {
+            "format": "jpg",
+            "id": "d655439cda83d7439c36fcd0b97f5a03",
+            "name": "Market99_8.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Market99_8.jpg",
+            "size": {
+                "width": 732,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5be7660d32bd3e25c44918672376e67a": {
+            "format": "jpg",
+            "id": "5be7660d32bd3e25c44918672376e67a",
+            "name": "Market99_9.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Market99_9.jpg",
+            "size": {
+                "width": 930,
+                "height": 2049
+            },
+            "state": 1,
+            "type": 1
+        },
+        "f748c491ab4cb84b7921df0698112d42": {
+            "format": "jpg",
+            "id": "f748c491ab4cb84b7921df0698112d42",
+            "name": "Max_1.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Max_1.jpg",
+            "size": {
+                "width": 939,
+                "height": 3882
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0421af4b0bf41430bc780b62b039b59c": {
+            "format": "jpg",
+            "id": "0421af4b0bf41430bc780b62b039b59c",
+            "name": "Max_10.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Max_10.jpg",
+            "size": {
+                "width": 938,
+                "height": 3681
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e2dbdc9b5c0f77860cb8f226970e3eac": {
+            "format": "jpg",
+            "id": "e2dbdc9b5c0f77860cb8f226970e3eac",
+            "name": "Max_3.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Max_3.jpg",
+            "size": {
+                "width": 350,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "f5025982a9f6665d98a77f3dd1d267ce": {
+            "format": "png",
+            "id": "f5025982a9f6665d98a77f3dd1d267ce",
+            "name": "Dominos_10.png",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Dominos_10.png",
+            "size": {
+                "width": 668,
+                "height": 1600
+            },
+            "state": 1,
+            "type": 1
+        },
+        "3695a0b14df739e8b5f3255f24e7a794": {
+            "format": "jpg",
+            "id": "3695a0b14df739e8b5f3255f24e7a794",
+            "name": "Luxe_9.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Luxe_9.jpg",
+            "size": {
+                "width": 1599,
+                "height": 974
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b7eed6a9b4d778f7fb1697dc685426a1": {
+            "format": "jpg",
+            "id": "b7eed6a9b4d778f7fb1697dc685426a1",
+            "name": "Max_5.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Max_5.jpg",
+            "size": {
+                "width": 426,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6317d5faa0b94ee43954adc9a1799f86": {
+            "format": "jpg",
+            "id": "6317d5faa0b94ee43954adc9a1799f86",
+            "name": "Max_8.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Max_8.jpg",
+            "size": {
+                "width": 932,
+                "height": 4187
+            },
+            "state": 1,
+            "type": 1
+        },
+        "2fff1132375fe9520310e6d413eda431": {
+            "format": "jpg",
+            "id": "2fff1132375fe9520310e6d413eda431",
+            "name": "Metro_1.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Metro_1.jpg",
+            "size": {
+                "width": 558,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c91e8d60b95645e2fe1894176ae51e88": {
+            "format": "jpg",
+            "id": "c91e8d60b95645e2fe1894176ae51e88",
+            "name": "Metro_2.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Metro_2.jpg",
+            "size": {
+                "width": 935,
+                "height": 2747
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6210feab2ad5a15cd65437e85a7fae5d": {
+            "format": "jpg",
+            "id": "6210feab2ad5a15cd65437e85a7fae5d",
+            "name": "Metro_3.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Metro_3.jpg",
+            "size": {
+                "width": 533,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "5cf33ac8fc2a63c48bf5f441f19d0afd": {
+            "format": "jpg",
+            "id": "5cf33ac8fc2a63c48bf5f441f19d0afd",
+            "name": "Metro_4.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Metro_4.jpg",
+            "size": {
+                "width": 940,
+                "height": 2510
+            },
+            "state": 1,
+            "type": 1
+        },
+        "424e07523dc8648bfeef2cfceee36433": {
+            "format": "jpg",
+            "id": "424e07523dc8648bfeef2cfceee36433",
+            "name": "Metro_5.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Metro_5.jpg",
+            "size": {
+                "width": 930,
+                "height": 2657
+            },
+            "state": 1,
+            "type": 1
+        },
+        "a75b30351708595b4214076fbae41b20": {
+            "format": "jpg",
+            "id": "a75b30351708595b4214076fbae41b20",
+            "name": "Metro_6.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Metro_6.jpg",
+            "size": {
+                "width": 538,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "03921f8f6f0ec9c0af80523257159f29": {
+            "format": "png",
+            "id": "03921f8f6f0ec9c0af80523257159f29",
+            "name": "Metro_8.png",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Metro_8.png",
+            "size": {
+                "width": 480,
+                "height": 1600
+            },
+            "state": 2,
+            "type": 1
+        },
+        "51e975f27f027d7e5600f9462fc07200": {
+            "format": "jpg",
+            "id": "51e975f27f027d7e5600f9462fc07200",
+            "name": "Metro_9.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Metro_9.jpg",
+            "size": {
+                "width": 923,
+                "height": 2646
+            },
+            "state": 1,
+            "type": 1
+        },
+        "c5f0141154518f5af27d05e90b8641ac": {
+            "format": "jpg",
+            "id": "c5f0141154518f5af27d05e90b8641ac",
+            "name": "Miniso_1.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Miniso_1.jpg",
+            "size": {
+                "width": 399,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ef8a4ae94d5eaddc115ca85b5ed28d81": {
+            "format": "jpg",
+            "id": "ef8a4ae94d5eaddc115ca85b5ed28d81",
+            "name": "Miniso_2.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Miniso_2.jpg",
+            "size": {
+                "width": 317,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "cc8da888acc418e4dd5e418889b8fc89": {
+            "format": "jpg",
+            "id": "cc8da888acc418e4dd5e418889b8fc89",
+            "name": "Miniso_4.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Miniso_4.jpg",
+            "size": {
+                "width": 1599,
+                "height": 450
+            },
+            "state": 2,
+            "type": 1
+        },
+        "209cdff18544a583a3fcc79815bb9195": {
+            "format": "jpg",
+            "id": "209cdff18544a583a3fcc79815bb9195",
+            "name": "Miniso_5.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Miniso_5.jpg",
+            "size": {
+                "width": 334,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "f54cb6e66aa28ab6393b026fefe95915": {
+            "format": "jpg",
+            "id": "f54cb6e66aa28ab6393b026fefe95915",
+            "name": "Miniso_6.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Miniso_6.jpg",
+            "size": {
+                "width": 355,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "55a035b1cf85eead8fb636179540f5d1": {
+            "format": "jpg",
+            "id": "55a035b1cf85eead8fb636179540f5d1",
+            "name": "Miniso_7.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Miniso_7.jpg",
+            "size": {
+                "width": 324,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "80b00cdc65ccc0d5faed47ebff60659a": {
+            "format": "png",
+            "id": "80b00cdc65ccc0d5faed47ebff60659a",
+            "name": "Miniso_8.png",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Miniso_8.png",
+            "size": {
+                "width": 336,
+                "height": 1600
+            },
+            "state": 1,
+            "type": 1
+        },
+        "2a80ac420ea00a6391b721d2680c8b0c": {
+            "format": "jpg",
+            "id": "2a80ac420ea00a6391b721d2680c8b0c",
+            "name": "Miniso_9.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Miniso_9.jpg",
+            "size": {
+                "width": 520,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "1fff31151bc537ac619e7e985057f615": {
+            "format": "jpg",
+            "id": "1fff31151bc537ac619e7e985057f615",
+            "name": "Pantaloons_1.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Pantaloons_1.jpg",
+            "size": {
+                "width": 925,
+                "height": 4081
+            },
+            "state": 1,
+            "type": 1
+        },
+        "59f114ce983b8ea9c3ae4d2eb21014bb": {
+            "format": "jpg",
+            "id": "59f114ce983b8ea9c3ae4d2eb21014bb",
+            "name": "Pantaloons_10.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Pantaloons_10.jpg",
+            "size": {
+                "width": 966,
+                "height": 4642
+            },
+            "state": 1,
+            "type": 1
+        },
+        "b1fa79fe522d697c9a0d3342d5dacec0": {
+            "format": "jpg",
+            "id": "b1fa79fe522d697c9a0d3342d5dacec0",
+            "name": "Pantaloons_2.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Pantaloons_2.jpg",
+            "size": {
+                "width": 933,
+                "height": 5429
+            },
+            "state": 1,
+            "type": 1
+        },
+        "0f347581f2eaeec698cd6a0400e8ef6b": {
+            "format": "jpg",
+            "id": "0f347581f2eaeec698cd6a0400e8ef6b",
+            "name": "Pantaloons_3.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Pantaloons_3.jpg",
+            "size": {
+                "width": 391,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "372ecf40c5ba0526f98f096cb46a964c": {
+            "format": "jpg",
+            "id": "372ecf40c5ba0526f98f096cb46a964c",
+            "name": "Pantaloons_4.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Pantaloons_4.jpg",
+            "size": {
+                "width": 603,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "75398ef968d46bd5c09c384bbadfb7c7": {
+            "format": "jpg",
+            "id": "75398ef968d46bd5c09c384bbadfb7c7",
+            "name": "Pantaloons_5.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Pantaloons_5.jpg",
+            "size": {
+                "width": 951,
+                "height": 4704
+            },
+            "state": 1,
+            "type": 1
+        },
+        "a50814519ad6ccfa1f03ee1ca770441e": {
+            "format": "jpg",
+            "id": "a50814519ad6ccfa1f03ee1ca770441e",
+            "name": "Pantaloons_6.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Pantaloons_6.jpg",
+            "size": {
+                "width": 943,
+                "height": 4231
+            },
+            "state": 1,
+            "type": 1
+        },
+        "647d7dddb4db063b17bd22a075606ada": {
+            "format": "jpg",
+            "id": "647d7dddb4db063b17bd22a075606ada",
+            "name": "Pantaloons_7.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Pantaloons_7.jpg",
+            "size": {
+                "width": 939,
+                "height": 5110
+            },
+            "state": 1,
+            "type": 1
+        },
+        "a99da28e096d117ee41ca4c403fb3add": {
+            "format": "jpg",
+            "id": "a99da28e096d117ee41ca4c403fb3add",
+            "name": "Pantaloons_8.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Pantaloons_8.jpg",
+            "size": {
+                "width": 938,
+                "height": 4475
+            },
+            "state": 1,
+            "type": 1
+        },
+        "e30175249b7a2048cfa4e2be714d42f0": {
+            "format": "jpg",
+            "id": "e30175249b7a2048cfa4e2be714d42f0",
+            "name": "Pantaloons_9.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Pantaloons_9.jpg",
+            "size": {
+                "width": 274,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "76cf0ae1a75d496ecbcd1635a02b126b": {
+            "format": "jpg",
+            "id": "76cf0ae1a75d496ecbcd1635a02b126b",
+            "name": "Patissez_1.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Patissez_1.jpg",
+            "size": {
+                "width": 1599,
+                "height": 995
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0bd4e81afa708bbce0b28d47658a3bc7": {
+            "format": "jpg",
+            "id": "0bd4e81afa708bbce0b28d47658a3bc7",
+            "name": "Patissez_2.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Patissez_2.jpg",
+            "size": {
+                "width": 923,
+                "height": 1325
+            },
+            "state": 2,
+            "type": 1
+        },
+        "358cdd98378b0e985972bc0d21135a1b": {
+            "format": "jpg",
+            "id": "358cdd98378b0e985972bc0d21135a1b",
+            "name": "Patissez_5.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Patissez_5.jpg",
+            "size": {
+                "width": 1026,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "7118838305f1486efdd1b19b03cec38c": {
+            "format": "png",
+            "id": "7118838305f1486efdd1b19b03cec38c",
+            "name": "Patissez_6.png",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Patissez_6.png",
+            "size": {
+                "width": 1116,
+                "height": 1600
+            },
+            "state": 1,
+            "type": 1
+        },
+        "d8901c26b75a6386a053075a23fac32a": {
+            "format": "png",
+            "id": "d8901c26b75a6386a053075a23fac32a",
+            "name": "Patissez_7.png",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Patissez_7.png",
+            "size": {
+                "width": 1128,
+                "height": 1600
+            },
+            "state": 1,
+            "type": 1
+        },
+        "06787b40dcd442e1f717b759598b485c": {
+            "format": "jpg",
+            "id": "06787b40dcd442e1f717b759598b485c",
+            "name": "Patissez_8.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Patissez_8.jpg",
+            "size": {
+                "width": 1175,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "e5d7ef95be5cdee18173b60a89a4d55a": {
+            "format": "jpg",
+            "id": "e5d7ef95be5cdee18173b60a89a4d55a",
+            "name": "Patissez_9.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Patissez_9.jpg",
+            "size": {
+                "width": 947,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "177e5775476553eabff5af0b0b01d21b": {
+            "format": "jpg",
+            "id": "177e5775476553eabff5af0b0b01d21b",
+            "name": "RMKV_1.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/RMKV_1.jpg",
+            "size": {
+                "width": 1599,
+                "height": 429
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ddeb2c2bb4a996be7b921a414a2ef6cc": {
+            "format": "png",
+            "id": "ddeb2c2bb4a996be7b921a414a2ef6cc",
+            "name": "RMKV_10.png",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/RMKV_10.png",
+            "size": {
+                "width": 692,
+                "height": 1600
+            },
+            "state": 2,
+            "type": 1
+        },
+        "872fbf813cbd4138af94ff02a5acedf1": {
+            "format": "jpg",
+            "id": "872fbf813cbd4138af94ff02a5acedf1",
+            "name": "RMKV_3.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/RMKV_3.jpg",
+            "size": {
+                "width": 895,
+                "height": 2970
+            },
+            "state": 1,
+            "type": 1
+        },
+        "32ad642a2fdee70bbe54defa335d80b4": {
+            "format": "jpg",
+            "id": "32ad642a2fdee70bbe54defa335d80b4",
+            "name": "RMKV_4.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/RMKV_4.jpg",
+            "size": {
+                "width": 1290,
+                "height": 3090
+            },
+            "state": 1,
+            "type": 1
+        },
+        "8ffe55986ccd54c3f0523ab1a5600a17": {
+            "format": "jpg",
+            "id": "8ffe55986ccd54c3f0523ab1a5600a17",
+            "name": "RMKV_5.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/RMKV_5.jpg",
+            "size": {
+                "width": 685,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "8ad391c3f5cc7521473346bc50f1fa48": {
+            "format": "jpg",
+            "id": "8ad391c3f5cc7521473346bc50f1fa48",
+            "name": "RMKV_6.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/RMKV_6.jpg",
+            "size": {
+                "width": 1300,
+                "height": 2826
+            },
+            "state": 1,
+            "type": 1
+        },
+        "d60ab691bba80d010264c2666f0fd9f1": {
+            "format": "jpg",
+            "id": "d60ab691bba80d010264c2666f0fd9f1",
+            "name": "RMKV_7.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/RMKV_7.jpg",
+            "size": {
+                "width": 1273,
+                "height": 2807
+            },
+            "state": 1,
+            "type": 1
+        },
+        "ca2e7fda7de06c8b869b7a61a0c67e23": {
+            "format": "jpg",
+            "id": "ca2e7fda7de06c8b869b7a61a0c67e23",
+            "name": "RMKV_8.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/RMKV_8.jpg",
+            "size": {
+                "width": 674,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "d4264f7fec4c50487e263ed710147cd4": {
+            "format": "jpg",
+            "id": "d4264f7fec4c50487e263ed710147cd4",
+            "name": "RMKV_9.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/RMKV_9.jpg",
+            "size": {
+                "width": 680,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "8f122ac0215d0b92c2ea30c0999a02a5": {
+            "format": "jpg",
+            "id": "8f122ac0215d0b92c2ea30c0999a02a5",
+            "name": "Starbucks_1.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Starbucks_1.jpg",
+            "size": {
+                "width": 935,
+                "height": 3099
+            },
+            "state": 2,
+            "type": 1
+        },
+        "66f570d25fa95592fff1da85c7550eef": {
+            "format": "jpg",
+            "id": "66f570d25fa95592fff1da85c7550eef",
+            "name": "Starbucks_10.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Starbucks_10.jpg",
+            "size": {
+                "width": 952,
+                "height": 3305
+            },
+            "state": 1,
+            "type": 1
+        },
+        "f76fffb2aba1f93bd781df9cb73d6712": {
+            "format": "jpg",
+            "id": "f76fffb2aba1f93bd781df9cb73d6712",
+            "name": "Starbucks_2.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Starbucks_2.jpg",
+            "size": {
+                "width": 939,
+                "height": 3174
+            },
+            "state": 1,
+            "type": 1
+        },
+        "9ce03a6eef3988e2df06a73054f632e8": {
+            "format": "jpg",
+            "id": "9ce03a6eef3988e2df06a73054f632e8",
+            "name": "Starbucks_3.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Starbucks_3.jpg",
+            "size": {
+                "width": 431,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "46d6e099a5c2fa2e2996f60daf0b1b7c": {
+            "format": "jpg",
+            "id": "46d6e099a5c2fa2e2996f60daf0b1b7c",
+            "name": "Starbucks_5.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Starbucks_5.jpg",
+            "size": {
+                "width": 933,
+                "height": 3628
+            },
+            "state": 1,
+            "type": 1
+        },
+        "69f96dee34ab11b29aad39183703687e": {
+            "format": "jpg",
+            "id": "69f96dee34ab11b29aad39183703687e",
+            "name": "Starbucks_7.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Starbucks_7.jpg",
+            "size": {
+                "width": 1599,
+                "height": 476
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ad2eb871228ff80ebccb5a323587fb8b": {
+            "format": "jpg",
+            "id": "ad2eb871228ff80ebccb5a323587fb8b",
+            "name": "Starmark_10.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Starmark_10.jpg",
+            "size": {
+                "width": 1599,
+                "height": 402
+            },
+            "state": 1,
+            "type": 1
+        },
+        "f945d1efa59cb5a39a9df903f6854ad2": {
+            "format": "png",
+            "id": "f945d1efa59cb5a39a9df903f6854ad2",
+            "name": "Starmark_1.png",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Starmark_1.png",
+            "size": {
+                "width": 304,
+                "height": 1600
+            },
+            "state": 1,
+            "type": 1
+        },
+        "265331a0f8e5b55099ea274f3f018d4d": {
+            "format": "jpg",
+            "id": "265331a0f8e5b55099ea274f3f018d4d",
+            "name": "Starmark_2.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Starmark_2.jpg",
+            "size": {
+                "width": 935,
+                "height": 2568
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4f03804ac5e15af221b089985dacdcf7": {
+            "format": "jpg",
+            "id": "4f03804ac5e15af221b089985dacdcf7",
+            "name": "Starmark_4.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Starmark_4.jpg",
+            "size": {
+                "width": 1599,
+                "height": 544
+            },
+            "state": 2,
+            "type": 1
+        },
+        "76a893d284ae37389e11312aa62bcfff": {
+            "format": "png",
+            "id": "76a893d284ae37389e11312aa62bcfff",
+            "name": "Starmark_7.png",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Starmark_7.png",
+            "size": {
+                "width": 564,
+                "height": 1600
+            },
+            "state": 1,
+            "type": 1
+        },
+        "32c27d6c402b92453d40413c3d142843": {
+            "format": "jpg",
+            "id": "32c27d6c402b92453d40413c3d142843",
+            "name": "Starmark_8.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Starmark_8.jpg",
+            "size": {
+                "width": 931,
+                "height": 3626
+            },
+            "state": 1,
+            "type": 1
+        },
+        "c9aae8a34e4c545793706235974f78ca": {
+            "format": "png",
+            "id": "c9aae8a34e4c545793706235974f78ca",
+            "name": "Starmark_9.png",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Starmark_9.png",
+            "size": {
+                "width": 472,
+                "height": 1600
+            },
+            "state": 1,
+            "type": 1
+        },
+        "4fd01ff5f7af24f412bbea90ad3c18f8": {
+            "format": "jpg",
+            "id": "4fd01ff5f7af24f412bbea90ad3c18f8",
+            "name": "VB%20signature.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/VB%20signature.jpg",
+            "size": {
+                "width": 1043,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f1e28b9e3a1d47e0a0b405f07aebd69f": {
+            "format": "jpg",
+            "id": "f1e28b9e3a1d47e0a0b405f07aebd69f",
+            "name": "Xiaomi_10.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Xiaomi_10.jpg",
+            "size": {
+                "width": 942,
+                "height": 3350
+            },
+            "state": 1,
+            "type": 1
+        },
+        "c33e111b5dcef2c4a328437f68984564": {
+            "format": "jpg",
+            "id": "c33e111b5dcef2c4a328437f68984564",
+            "name": "Xiaomi_1.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Xiaomi_1.jpg",
+            "size": {
+                "width": 945,
+                "height": 3221
+            },
+            "state": 1,
+            "type": 1
+        },
+        "705a806ae1073ea467a379d66fb15da2": {
+            "format": "jpg",
+            "id": "705a806ae1073ea467a379d66fb15da2",
+            "name": "Xiaomi_2.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Xiaomi_2.jpg",
+            "size": {
+                "width": 1599,
+                "height": 453
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a1d8636ccaff08429564b2e791531d93": {
+            "format": "jpg",
+            "id": "a1d8636ccaff08429564b2e791531d93",
+            "name": "Xiaomi_3.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Xiaomi_3.jpg",
+            "size": {
+                "width": 937,
+                "height": 3256
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b73080966b14194c5a43a34a1b73b378": {
+            "format": "jpg",
+            "id": "b73080966b14194c5a43a34a1b73b378",
+            "name": "Zara_6.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Zara_6.jpg",
+            "size": {
+                "width": 1599,
+                "height": 319
+            },
+            "state": 1,
+            "type": 1
+        },
+        "0ab987282d240731fcfbe044be180398": {
+            "format": "jpg",
+            "id": "0ab987282d240731fcfbe044be180398",
+            "name": "Zara_5.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Zara_5.jpg",
+            "size": {
+                "width": 929,
+                "height": 4525
+            },
+            "state": 1,
+            "type": 1
+        },
+        "d774f3aa5d97f74ce85c2f75d3b9de99": {
+            "format": "jpg",
+            "id": "d774f3aa5d97f74ce85c2f75d3b9de99",
+            "name": "Zara_4.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Zara_4.jpg",
+            "size": {
+                "width": 1599,
+                "height": 324
+            },
+            "state": 1,
+            "type": 1
+        },
+        "ca78f9b96d1e019bb6ee3a237294a378": {
+            "format": "jpg",
+            "id": "ca78f9b96d1e019bb6ee3a237294a378",
+            "name": "Zara_3.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Zara_3.jpg",
+            "size": {
+                "width": 1599,
+                "height": 283
+            },
+            "state": 1,
+            "type": 1
+        },
+        "b2a9439434513649de92057136d4aa90": {
+            "format": "jpg",
+            "id": "b2a9439434513649de92057136d4aa90",
+            "name": "Zara_2.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Zara_2.jpg",
+            "size": {
+                "width": 303,
+                "height": 1599
+            },
+            "state": 1,
+            "type": 1
+        },
+        "f76abe3572484a7b3bd417c88047415d": {
+            "format": "jpg",
+            "id": "f76abe3572484a7b3bd417c88047415d",
+            "name": "Zara_10.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Zara_10.jpg",
+            "size": {
+                "width": 343,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1457abbfeeb49ffdcd96de3242045e5e": {
+            "format": "jpg",
+            "id": "1457abbfeeb49ffdcd96de3242045e5e",
+            "name": "Zara_7.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Zara_7.jpg",
+            "size": {
+                "width": 949,
+                "height": 6309
+            },
+            "state": 1,
+            "type": 1
+        },
+        "0a56186047c2563e05276b4873209e1a": {
+            "format": "jpg",
+            "id": "0a56186047c2563e05276b4873209e1a",
+            "name": "Zara_8.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Zara_8.jpg",
+            "size": {
+                "width": 1599,
+                "height": 370
+            },
+            "state": 2,
+            "type": 1
+        },
+        "236303ccd01aa9a9dc29975fa1853b1e": {
+            "format": "jpg",
+            "id": "236303ccd01aa9a9dc29975fa1853b1e",
+            "name": "Zara_9.jpg",
+            "path": "file:T:/aidl/nanonets-ocr-sample-python/images/Zara_9.jpg",
+            "size": {
+                "width": 390,
+                "height": 1599
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}
