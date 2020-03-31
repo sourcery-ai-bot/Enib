@@ -1,4 +1,4 @@
-# RUNTIME TERRORS
+
 ## EXTRACT NECESSARY INFORMATION BILL (ENIB )
 This repository contains solution to the following problem statement by AIDL Hackathon 2020:
 - Step 1 : Segmentation of each required field in the bill using semantic segmentation technique.
