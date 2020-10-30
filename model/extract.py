@@ -86,7 +86,7 @@ def get_invoice_no(data):
     closest = None
     min = 2000000
     for i in data:
-        if 'bill' in i.lower().strip().split() or 'invoice' in i.lower().strip().split() :
+        if 'bill' in i.lower().strip().split() or 'invoice' in i.lower().strip().split():
             individual = i.lower()
             f1 = re.findall(r'[A-Za-z]*.[0-9]{1,50}',i)
             bill_ind = individual.find('bill')
@@ -98,11 +98,8 @@ def get_invoice_no(data):
                     ind = individual.find(regs)
                 except:
                     continue
-                
-                if(ind>=bill_ind):
-                    diff = ind - bill_ind
-                else:
-                    diff = bill_ind - ind
+
+                diff = ind - bill_ind if (ind>=bill_ind) else bill_ind - ind
                 if diff<min:
                     min = diff
                     closest = regs
